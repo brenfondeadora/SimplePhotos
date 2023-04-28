@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="#">
-<!--<img src="images/.gif" height="500"> -->
+<img src="images/photos.gif" height="500"> 
 </a>  
 <br><br>
 Mac app developed with SwiftUI using CoreData
@@ -20,8 +20,6 @@ Mac app developed with SwiftUI using CoreData
 <a href="https://github.com/brenfondeadora/SimplePhotos/issues/new">Request feature</a>
 
 </p>
-
-## 🤖 Requirements
 
 ## 👤 Author
 
