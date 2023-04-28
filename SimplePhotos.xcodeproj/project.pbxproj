@@ -14,6 +14,7 @@
 		23778F9D29FC218C00C43457 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23778F9C29FC218C00C43457 /* Photo.swift */; };
 		23778FA029FC230100C43457 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23778F9F29FC230100C43457 /* PhotosViewModel.swift */; };
 		23778FA429FC259000C43457 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23778FA329FC259000C43457 /* PhotoView.swift */; };
+		23778FA729FC2A6100C43457 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23778FA629FC2A6100C43457 /* NetworkReachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		23778F9C29FC218C00C43457 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		23778F9F29FC230100C43457 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
 		23778FA329FC259000C43457 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		23778FA629FC2A6100C43457 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		2328669829FB2BCE0049CEFF /* SimplePhotos */ = {
 			isa = PBXGroup;
 			children = (
+				23778FA529FC2A4700C43457 /* Utils */,
 				23778FA129FC256600C43457 /* UI */,
 				23778F9E29FC22D400C43457 /* ViewModels */,
 				23778F9B29FC217B00C43457 /* Models */,
@@ -108,6 +111,14 @@
 				23778FA329FC259000C43457 /* PhotoView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		23778FA529FC2A4700C43457 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				23778FA629FC2A6100C43457 /* NetworkReachability.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				2328669C29FB2BCE0049CEFF /* ContentView.swift in Sources */,
 				23778FA429FC259000C43457 /* PhotoView.swift in Sources */,
 				2328669A29FB2BCE0049CEFF /* SimplePhotosApp.swift in Sources */,
+				23778FA729FC2A6100C43457 /* NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
