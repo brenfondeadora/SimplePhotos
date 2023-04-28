@@ -5,6 +5,7 @@
 //  Created by Brenda Saavedra  on 28/04/23.
 //
 
+import Foundation
 import SystemConfiguration
 
 class NetworkReachability: ObservableObject {
